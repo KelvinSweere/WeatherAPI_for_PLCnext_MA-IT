@@ -22,8 +22,6 @@ namespace WAPI_v3
 
 void WAPI_v3Pro::Execute()
 {
-	//implement program
-
 	//Conver from StaticString<80> to regular C++ string.
 	std::string _key = key.ToString();
 	std::string _city = city.ToString();
@@ -44,7 +42,7 @@ void WAPI_v3Pro::Execute()
 
 		std::string curl_string;
 
-		//If curl is correctly initalized.
+		//If curl is correctly initialized.
 		if (curl)
 		{
 			curl_easy_setopt(curl, CURLOPT_URL, c_url);
@@ -57,9 +55,10 @@ void WAPI_v3Pro::Execute()
 			res = curl_easy_perform(curl);
 			curl_easy_cleanup(curl);
 
+			//If the curl messages is correctly send.
 			if (res == CURLE_OK)
 			{
-				// Convert string to json object.
+				// Convert string to json object. NOTE: The program can't find j_complete or parse. It's a bug from Phoenix...
 				json j_complete = json::parse(curl_string);
 
 				//Get the termpature from the object.
@@ -72,7 +71,7 @@ void WAPI_v3Pro::Execute()
 	}
 }
 
-} // end of namespace WeatherAPI_cpp_eclipse_v2
+} // end of namespace
 
 //Callback function within curl to convert data to string.
 size_t CurlWrite_CallbackFunc_StdString(void* contents, size_t size, size_t nmemb, std::string* s)
