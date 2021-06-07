@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetaConfigurationDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="2.0" xmlns="http://www.phoenixcontact.com/schema/metaconfig">
+  <Component type="WAPI_v3Com">
+    <ProgramIncludes>
+      <Include path="WAPI_v3Pro/WAPI_v3Pro.progmeta" />
+    </ProgramIncludes>
+    <Ports>
+    </Ports>
+  </Component>
+</MetaConfigurationDocument>

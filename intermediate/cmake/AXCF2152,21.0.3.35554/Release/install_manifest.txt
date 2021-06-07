@@ -1,0 +1,1 @@
+C:/Users/usermait/Documents/WeatherAPI_for_PLCnext_MA-IT/bin/AXCF2152_21.0.3.35554/Release/lib/libWAPI_v3.so

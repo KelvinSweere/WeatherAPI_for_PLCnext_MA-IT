@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.release.511618949" name="Release all targets">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+			<provider class="org.eclipse.cdt.core.language.settings.providers.LanguageSettingsGenericProvider" id="com.phoenixcontact.plcnext.cplusplus.toolchains.languageprovider" name="PLCnext Language Settings Provider" prefer-non-shared="true">
+				<language-scope id="org.eclipse.cdt.core.g++"/>
+			</provider>
+		</extension>
+	</configuration>
+	<configuration id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.debug" name="Debug all targets">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+			<provider class="org.eclipse.cdt.core.language.settings.providers.LanguageSettingsGenericProvider" id="com.phoenixcontact.plcnext.cplusplus.toolchains.languageprovider" name="PLCnext Language Settings Provider" prefer-non-shared="true">
+				<language-scope id="org.eclipse.cdt.core.g++"/>
+			</provider>
+		</extension>
+	</configuration>
+	<configuration id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.releaseAXCF2152,2021.0.3 LTS (21.0.3.35554)" name="Release AXCF2152,2021.0.3 LTS (21.0.3.35554)">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+			<provider class="org.eclipse.cdt.core.language.settings.providers.LanguageSettingsGenericProvider" id="com.phoenixcontact.plcnext.cplusplus.toolchains.languageprovider" name="PLCnext Language Settings Provider" prefer-non-shared="true">
+				<language-scope id="org.eclipse.cdt.core.g++"/>
+			</provider>
+		</extension>
+	</configuration>
+	<configuration id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.debugAXCF2152,2021.0.3 LTS (21.0.3.35554)" name="Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+			<provider class="org.eclipse.cdt.core.language.settings.providers.LanguageSettingsGenericProvider" id="com.phoenixcontact.plcnext.cplusplus.toolchains.languageprovider" name="PLCnext Language Settings Provider" prefer-non-shared="true">
+				<language-scope id="org.eclipse.cdt.core.g++"/>
+			</provider>
+		</extension>
+	</configuration>
+</project>

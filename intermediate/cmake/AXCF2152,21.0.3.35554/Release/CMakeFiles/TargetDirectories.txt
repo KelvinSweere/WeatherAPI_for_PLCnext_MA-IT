@@ -1,0 +1,7 @@
+C:/Users/usermait/Documents/WeatherAPI_for_PLCnext_MA-IT/intermediate/cmake/AXCF2152,21.0.3.35554/Release/CMakeFiles/install.dir
+C:/Users/usermait/Documents/WeatherAPI_for_PLCnext_MA-IT/intermediate/cmake/AXCF2152,21.0.3.35554/Release/CMakeFiles/install/local.dir
+C:/Users/usermait/Documents/WeatherAPI_for_PLCnext_MA-IT/intermediate/cmake/AXCF2152,21.0.3.35554/Release/CMakeFiles/edit_cache.dir
+C:/Users/usermait/Documents/WeatherAPI_for_PLCnext_MA-IT/intermediate/cmake/AXCF2152,21.0.3.35554/Release/CMakeFiles/WAPI_v3.dir
+C:/Users/usermait/Documents/WeatherAPI_for_PLCnext_MA-IT/intermediate/cmake/AXCF2152,21.0.3.35554/Release/CMakeFiles/rebuild_cache.dir
+C:/Users/usermait/Documents/WeatherAPI_for_PLCnext_MA-IT/intermediate/cmake/AXCF2152,21.0.3.35554/Release/CMakeFiles/list_install_components.dir
+C:/Users/usermait/Documents/WeatherAPI_for_PLCnext_MA-IT/intermediate/cmake/AXCF2152,21.0.3.35554/Release/CMakeFiles/install/strip.dir
