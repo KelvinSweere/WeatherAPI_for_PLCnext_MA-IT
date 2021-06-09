@@ -22,7 +22,7 @@ namespace WAPI_v3
 
 void WAPI_v3Pro::Execute()
 {
-	//Conver from StaticString<80> to regular C++ string.
+	//Convert from StaticString<80> to regular C++ string.
 	std::string _key = key.ToString();
 	std::string _city = city.ToString();
 
@@ -38,7 +38,6 @@ void WAPI_v3Pro::Execute()
 		curl_global_init(CURL_GLOBAL_DEFAULT);
 		CURL* curl = curl_easy_init();
 		CURLcode res;
-
 
 		std::string curl_string;
 
@@ -67,7 +66,6 @@ void WAPI_v3Pro::Execute()
 				temperature -= 273.15;
 			}
 		}
-
 	}
 }
 
